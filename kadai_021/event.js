@@ -6,6 +6,6 @@ const text=document.getElementById('text');
 btn.addEventListener('click', () => {
     // 非同期処理を実行する（2秒後）
     setTimeout(() => {
-        text.textContent = 'テキストをクリックしました';
+        text.textContent = 'ボタンをクリックしました';
     }, 2000);
 });
